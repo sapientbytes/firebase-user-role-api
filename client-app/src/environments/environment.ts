@@ -5,15 +5,16 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyDODLVMuwrvGobMXkI89DktOLgwf0mCM24",
-    authDomain: "joaq-lab.firebaseapp.com",
-    databaseURL: "https://joaq-lab.firebaseio.com",
-    projectId: "joaq-lab",
-    storageBucket: "joaq-lab.appspot.com",
-    messagingSenderId: "794748950011",
-    appId: "1:794748950011:web:815fe385e7317c11"
+    apiKey: "AIzaSyAilK6F1inAXmHqBjlC8GPuvGJUAXg0aHo",
+    authDomain: "sapientusers-9d29c.firebaseapp.com",
+    databaseURL: "https://sapientusers-9d29c.firebaseio.com",
+    projectId: "sapientusers-9d29c",
+    storageBucket: "sapientusers-9d29c.appspot.com",
+    messagingSenderId: "670983809457",
+    appId: "1:670983809457:web:0ba55d0e995166defcf590",
+    measurementId: "G-YV0DS1KVYQ"
   },
-  userApi: 'http://localhost:5000/joaq-lab/us-central1/api'
+  userApi: 'https://us-central1-sapientusers-9d29c.cloudfunctions.net/api'
 };
 
 /*

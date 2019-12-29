@@ -11,7 +11,7 @@ export type CreateUserRequest = { displayName: string, password: string, email: 
 })
 export class UserService {
 
-  private baseUrl = 'https://us-central1-joaq-lab.cloudfunctions.net/api/users'
+  private baseUrl = 'https://us-central1-sapientusers-9d29c.cloudfunctions.net/api/users'
 
   constructor(
     private http: HttpClient
