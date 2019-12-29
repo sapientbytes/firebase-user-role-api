@@ -34,6 +34,7 @@ export class UserService {
   }
 
   create(user: CreateUserRequest) {
+    debugger;
     return this.http.post(`${this.baseUrl}`, user).pipe(
       map(_ => { })
     )

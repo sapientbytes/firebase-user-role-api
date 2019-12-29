@@ -4,7 +4,7 @@ export function hasRole(roles: Array<'admin' | 'manager' | 'user'>) {
     return (req: Request, res: Response, next: Function) => {
         const { role, email } = res.locals
 
-        if (email === 'sapienbytes@sapienbytes.com')
+        if (email === 'sapientbytes@sapientbytes.com')
             return next();
 
         if (!role)
@@ -23,7 +23,7 @@ export function isAuthorized(opts: { hasRole: Array<'admin' | 'manager' | 'user'
         const { role, email, uid } = res.locals
         const { id } = req.params
 
-        if (email === 'sapienbytes@sapienbytes.com')
+        if (email === 'sapientbytes@sapientbytes.com')
             return next();
 
         if (opts.allowSameUser && id && uid === id)
