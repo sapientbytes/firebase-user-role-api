@@ -10,7 +10,7 @@ import {HttpHeaders} from "@angular/common/http";
 })
 export class SapientUserService {
 
-  private baseUrl = 'http://localhost:8080/users/user'
+  private baseUrl = '/users/user'
 
   constructor(
     private http: HttpClient

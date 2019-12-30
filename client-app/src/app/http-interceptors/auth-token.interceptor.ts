@@ -29,7 +29,7 @@ export class AuthTokenHttpInterceptor implements HttpInterceptor {
           });
         }
 
-        debugger;
+        //debugger;
         return next.handle(reqClone);
       })
     );
