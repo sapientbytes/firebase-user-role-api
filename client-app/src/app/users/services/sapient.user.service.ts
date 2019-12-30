@@ -10,7 +10,7 @@ import {HttpHeaders} from "@angular/common/http";
 })
 export class SapientUserService {
 
-  private baseUrl = '/users/user'
+  private baseUrl = '/users'
 
   constructor(
     private http: HttpClient
@@ -20,7 +20,7 @@ export class SapientUserService {
 
     console.log( `SENDING REQUEST TO ${this.baseUrl} WITH ID TOKEN ${id}`);
 
-    return this.http.get(`${this.baseUrl}/${id}`).pipe(
+    return this.http.get(`${this.baseUrl}/user/${id}`).pipe(
       map(result => {
 
         console.log("RETRIEVED SAPIENTUSER INFO: ");
